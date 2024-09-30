@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #130f40;
+}
+.Header h2{
+    border: 2px solid #4834d4;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.sub-header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 15px;
+}
+.Left_Section{
+    font-size: 30px;
+    margin: auto 0px;
+}
+
+.Right_Section ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+.Right_Section ul li{
+    padding: 10px;
+}
+.Right_Section ul li:hover{
+    background-color: #30336b;
+}
+.Right_Section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    margin: 80px auto;
+    width: 500px;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+
+.Right-Top, .Left-Top, .Right-Bottom, .Left-Bottom{
+    border: 2px solid #4834d4;
+    border-radius: 8px;
+    height: 140px;
+    width: 200px;
+    background-color: #30336b;
+    align-content: center;
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+}
+.Right-Top a, .Left-Top a, .Right-Bottom a, .Left-Bottom a{
+    text-decoration: none;
+    
+}
+.Left-Top{
+    margin-left: 10px;
+}
+.Bottom{
+    margin-top: 10px;
+}
+.Left-Bottom{
+    margin-left: 10px;
+}
+
+@media (max-width: 960px ) and (min-width: 541px ){
+    .sub-header{
+        display: block;
+    }
+    .Left_Section{
+        text-align: center;
+    }
+    .Right_Section ul{
+        display: block;
+        text-align: center;
+    }
+    
+}
+@media (max-width: 540px ){
+    .sub-header{
+        display: block;
+    }
+    .Left_Section{
+        text-align: center;
+    }
+    .Right_Section ul{
+        display: block;
+        text-align: center;
+    }
+    .content {
+        height: max-content;
+        width: max-content;
+        margin: 40px auto;
+    }
+    .content a{
+        display: block;
+        margin: 5px;
+    }
+    .Left-Top{
+        margin-left: 0px;
+    }
+    .Bottom{
+        margin-top: 0;
+    }
+    .Left-Bottom{
+        margin-left: 0;
+    }
+}

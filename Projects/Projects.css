@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #30336b;
+}
+h1{
+    margin-top: 20px;
+    border: 2px solid #4834d4;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+.Projects_Div{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Pro_1, .Pro_2, .Pro_3, .Pro_4{
+    border: 2px solid white;
+    margin-right: 5px;
+    padding: 10px;
+}
+.Pro_1 h3, .Pro_2 h3, .Pro_3 h3, .Pro_4 h3{
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+.Pro_1 a, .Pro_2 a, .Pro_3 a, .Pro_4 a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}
+@media (max-width:960px) {
+    .Projects_Div{
+        display: block;
+    }
+    .Pro_1, .Pro_2, .Pro_3, .Pro_4{
+        border: 2px solid white;
+        margin-top: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+}
